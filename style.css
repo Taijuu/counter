@@ -1,0 +1,58 @@
+* {
+    border: 0;
+    margin: 0;
+}
+
+body {
+    color: #334444;
+    background-color: #405a5a;
+    font-family: 'Poppins', sans-serif;
+}
+
+button {
+    width: 150px;
+    height: 100px;
+    border-radius: 15px;
+    font-size: 20px;
+    color: #577e7e;
+    background-color: #394e4e;
+}
+
+.container {
+    display: flex;
+    width: 100vw;
+    height: 100vh;
+    flex-direction: column;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: center;
+}
+
+.title {
+    font-size: 100px;
+}
+
+.num {
+    font-size: 150px;
+}
+
+.btn {
+    display: flex;
+    gap: 15px;
+}
+
+@media only screen and (max-width: 600px) {
+    button {
+        width: 100px;
+        height: 50px;
+        font-size: 15px;
+    }
+
+    .title {
+        font-size: 50px;
+    }
+    
+    .num {
+        font-size: 50px;
+    }
+  }
